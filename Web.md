@@ -59,7 +59,7 @@ Send the request to Burp Suite and check out the response.
 ![image](https://user-images.githubusercontent.com/50519199/120962118-c7a57380-c767-11eb-839a-f7b3cf769cf4.png)
 
 **Alternate:**
-Check out the source code and taka a look **Header**
+Check out the source code and take a look **Header**
 
 ![image](https://user-images.githubusercontent.com/50519199/120962344-397dbd00-c768-11eb-99a8-4fcd7cd83b99.png)
 
