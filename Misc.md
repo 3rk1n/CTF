@@ -3,7 +3,7 @@ Find the flag here:</br>
 --[----->+<]>.++++++.-----------.++++++.[----->+<]>.----.---.+++[->+++<]>+.-------.++++++++++.++++++++++.++[->+++<]>.+++.[--->+<]>----.+++[->+++<]>++.++++++++.+++++.--------.-[--->+<]>--.+[->+++<]>+.++++++++.>--[-->+++<]>.
 
 To understand what this code is, I made a plenty of research</br>
-1. I searched as ***"What is esoteric"***, ***"Esoteric cryptograph"***, ***"Esoteric coding"***
+1. I searched as ***"What is esoteric"***, ***"Esoteric cryptography"***, ***"Esoteric coding"***
 2. I found a clue while researching as ***"Esoteric coding"***
 3. [Esoteric coding](https://en.wikipedia.org/wiki/Esoteric_programming_language) is "An esoteric programming language is a programming language designed to test the boundaries of computer programming language design, as a proof of concept, as software art, as a hacking interface to another language, or as a joke."
 4. And the I found the answer, this coding is [Brainfuck](https://en.wikipedia.org/wiki/Esoteric_programming_language#Brainfuck)
@@ -21,9 +21,9 @@ Download haystack.txt
 ![image](https://user-images.githubusercontent.com/50519199/121124960-714f3800-c82e-11eb-8e4a-ee806a239ff2.png)
 
 I opened the file by LibreOffice and there were 1555 pages, 726 words, 7.257.622 characters, and it is hard to find answer if you think read all of them.</br>
-We have three clues given in the quesiton:
+We have three clues given in the question:
 1. The answer must be start as ***"flag{"***
-2. The legth of answer must be ***16 between the curly braces.***
+2. The length of answer must be ***16 between the curly braces.***
 3. The answer must be end as ***"}"****
 
 Firstly, I run ``grep -o -e '.....................}\b' haystack.txt > haystackv1.txt`` to extract ending with "}" and inclueded "flag{"</br>
