@@ -33,7 +33,7 @@ So that I used browser option and than search ***flag*** keyword.
 
 # Secret Images
 We discovered Arasaka operatives sending wierd pictures to each other. It looks like they may contain secret data. Can you find it?</br>
-Dowload crypted1.png and crypted2.png
+Download crypted1.png and crypted2.png
 
 ![image](https://user-images.githubusercontent.com/50519199/121122322-e704d500-c829-11eb-8542-c1f8263fedd6.png)
 ![image](https://user-images.githubusercontent.com/50519199/121122348-f08e3d00-c829-11eb-99bb-416410554f20.png)
