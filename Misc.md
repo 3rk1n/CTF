@@ -24,7 +24,7 @@ I opened the file by LibreOffice and there were 1555 pages, 726 words, 7.257.622
 We have three clues given in the question:
 1. The answer must be start as ***"flag{"***
 2. The length of answer must be ***16 between the curly braces.***
-3. The answer must be end as ***"}"****
+3. The answer must be end as ***"}"***
 
 Firstly, I run ``grep -o -e '.....................}\b' haystack.txt > haystackv1.txt`` to extract ending with "}" and inclueded "flag{"</br>
 ***Dot means number of character in the answer with flag{***</br>
