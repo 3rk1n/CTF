@@ -26,7 +26,7 @@ We have three clues given in the question:
 2. The length of answer must be ***16 between the curly braces.***
 3. The answer must be end as ***"}"***
 
-Firstly, I run ``grep -o -e '.....................}\b' haystack.txt > haystackv1.txt`` to extract ending with "}" and inclueded "flag{"</br>
+Firstly, I run ``grep -o -e '.....................}\b' haystack.txt > haystackv1.txt`` to extract ending with "}" and included "flag{"</br>
 ***Dot means number of character in the answer with flag{***</br>
 Then, I run ``grep -o -e '\bflag{.................' haystackv1.txt`` to find which value start with "flag{"</br>
 ***Dot means number of character in the answer with }***
